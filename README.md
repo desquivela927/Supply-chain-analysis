@@ -9,7 +9,7 @@ Análisis de rendimiento de ventas y operaciones logísticas sobre un dataset de
 - Dataset: US Regional Sales Data (Kaggle)
 
 ## Preguntas de negocio respondidas
-1. Resumen financiero global — ingresos, costos y ganancia
+1. Resumen financiero global - ingresos, costos y ganancia
 2. Rentabilidad y eficiencia por canal de ventas
 3. Volumen e ingresos por bodega
 4. Tiempo promedio de entrega por canal
