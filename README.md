@@ -6,20 +6,20 @@ SQL for data extraction and transformation, Python for statistical analysis and 
 
 ## Tools & Workflow
 Raw Data (CSV)
-↓ SQL - extraction and transformation clean data
-↓ Python - analysis and visualization
-↓ Power BI - interactive dashboard insights & reports
+SQL - extraction and transformation clean data
+Python - analysis and visualization
+Power BI - interactive dashboard insights & reports
 
 ## Repository Structure
 supply-chain-analysis/
-├── SQL/
-│   └── Supply_Chain.sql
-├── Python/
-│   ├── Supply_Chain_Python.ipynb
-│   └── Supply_Chain_Summary.png
-└── PowerBI/
-├── Supply_Chain_Dashboard.pbix
-└── Supply_Chain_Dashboard.pdf
+- SQL/
+   └── Supply_Chain.sql
+- Python/
+   ├── Supply_Chain_Python.ipynb
+   └── Supply_Chain_Summary.png
+- PowerBI/
+   ├── Supply_Chain_Dashboard.pbix
+   └── Supply_Chain_Dashboard.pdf
 
 ## Analysis Performed
 1. Total revenue, cost and profit summary
