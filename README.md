@@ -1,47 +1,46 @@
 # Supply Chain - Sales Performance Analysis
 
-## Descripción
-Análisis de rendimiento de ventas y operaciones logísticas sobre un dataset de 7.991 órdenes de ventas regionales en Estados Unidos. Se respondieron 8 preguntas de negocio usando SQL y se construyó un dashboard ejecutivo en Power BI.
+## Description
+End-to-end analysis of 7,991 sales orders using SQL, Python and Power BI. Each tool was used for its specific strength:
+SQL for data extraction and transformation, Python for statistical analysis and visualization and Power BI for interactive dashboards.
 
-## Herramientas
-- SQL (DB Browser for SQLite)
-- Power BI Desktop (visualización y DAX)
-- Dataset: US Regional Sales Data (Kaggle)
+## Tools & Workflow
+Raw Data (CSV)
+↓ SQL - extraction and transformation clean data
+↓ Python - analysis and visualization
+↓ Power BI - interactive dashboard insights & reports
 
-## Preguntas de negocio respondidas
-1. Resumen financiero global - ingresos, costos y ganancia
-2. Rentabilidad y eficiencia por canal de ventas
-3. Volumen e ingresos por bodega
-4. Tiempo promedio de entrega por canal
-5. Top 10 productos por margen de ganancia
-6. Clasificación de órdenes por tamaño
-7. Costo operativo por bodega
-8. Ranking de productos más rentables por canal
+## Repository Structure
+supply-chain-analysis/
+├── SQL/
+│   └── Supply_Chain.sql
+├── Python/
+│   ├── Supply_Chain_Python.ipynb
+│   └── Supply_Chain_Summary.png
+└── PowerBI/
+├── Supply_Chain_Dashboard.pbix
+└── Supply_Chain_Dashboard.pdf
 
-## Principales hallazgos
-- Margen de ganancia global del **37.3%** - operación muy saludable
-- **Wholesale** es el canal más eficiente - mejor margen y entrega más rápida
-- **WARE-NMK1003** concentra el 31.56% del costo operativo total
-- **100%** de las órdenes son de tamaño Small - oportunidad de aumentar ticket promedio
-- Productos **23 y 4** aparecen en el top 3 de múltiples canales
+## Analysis Performed
+1. Total revenue, cost and profit summary
+2. Revenue and profitability by sales channel
+3. Volume and revenue by warehouse
+4. Average delivery time by channel
+5. Top 10 products by profit margin
+6. Order size classification
+7. Operational cost by warehouse
+8. Top 3 products by sales channel (ranking)
 
-## Técnicas SQL utilizadas
-- CTE + REPLACE + CAST para limpieza de datos
-- JULIANDAY para cálculo de días entre fechas
-- CASE WHEN para clasificación de órdenes
-- Subconsultas para porcentajes del total
-- CTEs encadenados + RANK() + PARTITION BY
+## Key Findings
+- Global profit margin: **37.3%** - healthy operation
+- **Wholesale** is the most efficient channel - best margin and fastest delivery
+- All channels and warehouses operate at similar margins (36-38%)
+- **WARE-NMK1003** handles 31.56% of total operational cost
+- **100%** of orders are small size - opportunity to increase average order value
 
-## Dashboard Power BI
-- 4 KPIs ejecutivos (Revenue, Cost, Profit, Margin)
-- Análisis por canal de ventas y bodega
-- Tabla de rentabilidad por producto
-- Filtros interactivos por Sales Channel y Warehouse
-- Medidas DAX con SUMX y DIVIDE
+## What Makes This Project Different
+This project was built with a supply chain operations background. The analysis focuses not just on numbers, but on operational decisions — the same type of analysis applied when managing 3,000+ monthly orders as Operations Director.
 
-## Conexión con experiencia operativa
-Este proyecto fue seleccionado por su conexión directa con mi experiencia como Director de Operaciones — analizando volúmenes de órdenes, costos logísticos y eficiencia por canal, conceptos que apliqué en el mundo real gestionando 3.000+ órdenes mensuales en el sector de servicios públicos.
-
-## Autor
-Daniel Esquivel - Ingeniero Industrial | Data Analytics  
+## Author
+Daniel Esquivel - Industrial Engineer | Data Analytics  
 Bogotá, Colombia - 2026
