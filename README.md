@@ -13,13 +13,13 @@ SQL for data extraction and transformation, Python for statistical analysis and 
 ## Repository Structure
 supply-chain-analysis/
 - SQL/
-    Supply_Chain.sql
+    - Supply_Chain.sql
 - Python/
-    Supply_Chain_Python.ipynb
-    Supply_Chain_Summary.png
+    - Supply_Chain_Python.ipynb
+    - Supply_Chain_Summary.png
 - PowerBI/
-    Supply_Chain_Dashboard.pbix
-    Supply_Chain_Dashboard.pdf
+    - Supply_Chain_Dashboard.pbix
+    - Supply_Chain_Dashboard.pdf
 
 ## Analysis Performed
 1. Total revenue, cost and profit summary
@@ -39,7 +39,7 @@ supply-chain-analysis/
 - **100%** of orders are small size - opportunity to increase average order value
 
 ## What Makes This Project Different
-This project was built with a supply chain operations background. The analysis focuses not just on numbers, but on operational decisions — the same type of analysis applied when managing 3,000+ monthly orders as Operations Director.
+This project was built with a supply chain operations background. The analysis focuses not just on numbers, but on operational decisions. The same type of analysis applied when managing 3,000+ monthly orders as Operations Director.
 
 ## Author
 Daniel Esquivel - Industrial Engineer | Data Analytics  
