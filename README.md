@@ -5,21 +5,21 @@ End-to-end analysis of 7,991 sales orders using SQL, Python and Power BI. Each t
 SQL for data extraction and transformation, Python for statistical analysis and visualization and Power BI for interactive dashboards.
 
 ## Tools & Workflow
-Raw Data (CSV)
-SQL - extraction and transformation clean data
-Python - analysis and visualization
-Power BI - interactive dashboard insights & reports
+1. Raw Data (CSV)
+2. SQL - extraction and transformation clean data
+3. Python - analysis and visualization
+4. Power BI - interactive dashboard insights & reports
 
 ## Repository Structure
 supply-chain-analysis/
 - SQL/
-   └── Supply_Chain.sql
+    Supply_Chain.sql
 - Python/
-   ├── Supply_Chain_Python.ipynb
-   └── Supply_Chain_Summary.png
+    Supply_Chain_Python.ipynb
+    Supply_Chain_Summary.png
 - PowerBI/
-   ├── Supply_Chain_Dashboard.pbix
-   └── Supply_Chain_Dashboard.pdf
+    Supply_Chain_Dashboard.pbix
+    Supply_Chain_Dashboard.pdf
 
 ## Analysis Performed
 1. Total revenue, cost and profit summary
